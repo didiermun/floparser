@@ -1,6 +1,7 @@
 {
-  "name": "@didiermun/floparser",
-  "version": "1.0.0",
+  "name": "@munezero/floparser",
+  "type": "module",
+  "version": "1.1.0",
   "description": "Parser for Flogram",
   "main": "index.js",
   "scripts": {
@@ -14,6 +15,9 @@
     "flogram",
     "parser"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Didier Munezero",
   "license": "MIT"
 }
