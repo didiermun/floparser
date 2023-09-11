@@ -1,7 +1,7 @@
 {
   "name": "@munezero/floparser",
   "type": "module",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Web Parser && Compiler for Flogram",
   "main": "index.js",
   "scripts": {
