@@ -1,10 +1,9 @@
-import Parser from './Parser/index.mjs'
 import Tokenizer from './Tokenizer/index.mjs'
-import WASM from './Compilers/WASM/index.mjs'
-import SimplerWASM from './Compilers/SimplerWASM/index.mjs'
-import SimpleParser from './SimpleParser/index.mjs'
+import Parser from './SimpleParser/index.mjs'
+import Compiler from './Compilers/SimplerWASM/index.mjs'
+import { createMemoryManager as MemoryManager, createDrawer as Draw} from './Compilers/MemoryManager/index.mjs'
 import { SIMPLE_IMPORTS } from './Tests/Shared/index.mjs'
 
-export {SimpleParser, Parser, Tokenizer, WASM, SimplerWASM, SIMPLE_IMPORTS}
+export {Parser, Tokenizer, Compiler, MemoryManager, Draw, SIMPLE_IMPORTS}
 
 //npm publish --access=public
